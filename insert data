@@ -1,0 +1,11 @@
+-- Customers
+INSERT INTO Customers VALUES (1, 'Rahul', 'Bhopal');
+INSERT INTO Customers VALUES (2, 'Priya', 'Indore');
+INSERT INTO Customers VALUES (3, 'Aman', 'Gwalior');
+INSERT INTO Customers VALUES (4, 'Sneha', 'Jabalpur');
+
+-- Orders
+INSERT INTO Orders VALUES (101, 1, 'Laptop');
+INSERT INTO Orders VALUES (102, 2, 'Phone');
+INSERT INTO Orders VALUES (103, 1, 'Tablet');
+INSERT INTO Orders VALUES (104, 5, 'Monitor'); -- CustomerID 5 doesn't exist in Customers
